@@ -55,6 +55,15 @@ public class Person {
         this.gehalt = gehalt;
     }
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "pnr=" + pnr +
+                ", vorname='" + vorname + '\'' +
+                ", nachname='" + nachname + '\'' +
+                ", gehalt=" + gehalt +
+                '}';
+    }
 
 
     // TODO Implement body of Person
